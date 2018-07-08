@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.container{
+  width: 1200px;
+  padding: 40px 15px;
+  margin: 0 auto;
+  color: #444;
+}
+.posts-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.post{
+  width: calc(50% - 15px);
+  padding: 20px 15px;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+a{
+  text-decoration: none;
+}
+.title{
+  color: #444;
+  margin: 15px 0;
+  height: 42px;
+  overflow: hidden;
+  margin-top: 0;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.post-description{
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-top: 0;
+  height: 38px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.post-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.main-page-link{
+  font-size: 18px;
+}
+.author-wrap{
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-post-wrap .post-description{
+  height: auto;
+}
+.single-post-wrap{
+  margin-top: 40px;
+}
+.comments-title{
+  margin-top: 40px;
+}
+.comment{
+  margin-top: 15px;
+  padding: 20px 15px;
+  box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.1)
+}
+.comment-author{
+  margin-bottom: 15px;
+  color: lightblue;
+}
+.comment-body{
+  text-transform: capitalize;
+}
