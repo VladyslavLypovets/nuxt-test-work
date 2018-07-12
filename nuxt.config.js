@@ -23,6 +23,15 @@ module.exports = {
   /*
   ** Build configuration
   */
+  /* Nuxt Axios */
+  modules: [
+    '@nuxtjs/axios',
+  ],
+  axios: {
+    proxy: false,
+    proxyHeaders: false
+  },
+  /* End Nuxt Axios */
   build: {
     /*
     ** Run ESLint on save
